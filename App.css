@@ -1,0 +1,39 @@
+
+body {
+  font-family: 'Indie Flower', cursive;
+}
+
+#title {
+  text-align: center;
+  margin-top: 1em;
+}
+
+#board {
+  margin: auto;
+  width: 306px;
+  height: 302px;
+  background: rgb(115, 209, 165);
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 1px rgb(115, 209, 165);
+}
+
+.box {
+  text-align: center;
+  color: lightcyan;
+  height: 100px;
+  width: 100px;
+  border: solid 1px white;
+  font-size: 80px;
+  line-height: 100px;
+  cursor: pointer;
+}
+
+.box:hover {
+  background: rgb(164, 212, 196);
+}
+
+#reset-btn {
+  display: block;
+  margin: 1em auto;
+}
